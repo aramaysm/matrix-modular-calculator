@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+
+
+:root {
+  --main-color-warning: #fa8500;
+  --main-color-success: #0db100;
+  --main-color-info: #03b4cf;
+  --main-color-info-secondary-background: #e6f1f2;
+  --main-color-info-secondary-accent: #1468fa;
+  --main-color-error: #e10303;
+  --main-color-danger: #ff5100;
+  --body-font: "Montserrat", sans-serif;
+
+  --main-color-light-bg: #fafcfd;
+  --main-color-palette: #c1fcf5;
+  --main-color-dark-bg: #009a8f;
+  --color-palette-1: #92006c;
+  --color-palette-2: #ffe5fe;
+  --color-palette-3: #9298cf;
+  --color-palette-4: #a8789b;
+}
+
+* {
+  font-family: var(--body-font);
+  font-weight: normal !important;
+}
+
+.button-Primary{
+  background-color: var(--main-color-info) !important; /**#4705FF-Moradito azuloso 3106BB*/
+  color: white !important;
+  height: 35px !important;
+  border: none !important;
+  box-shadow: 0 0.25rem 0.35rem #c1fcf5 !important;
+  border-radius: 10px !important;
+  margin: 5px !important;
+}
+.button-Secondary{
+  background-color: var(--color-palette-1) !important; /**#4705FF-Moradito azuloso 3106BB*/
+  color: white !important;
+  height: 35px !important;
+  border: none !important;
+  box-shadow: 0 0.25rem 0.35rem var(--color-palette-2) !important;
+  border-radius: 10px !important;
+  margin: 5px !important;
+}
+.bg-Secondary{
+  background-color: var(--color-palette-1) !important; /**#4705FF-Moradito azuloso 3106BB*/
+  
+}
+.col-1-5{
+  width: 12.5% !important;
+  max-width: 12.5% !important;
+  margin-top: 15px !important;
+}
+.color-Primary{
+  color: var(--color-palette-1) !important;
+}
+.color-light{
+  color: var(--color-palette-2) !important;
+}
+.border-none{
+  border: none !important;
+}
+.shadow-Secondary{
+  box-shadow: 0 0.25rem 0.35rem var(--color-palette-4) !important;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
